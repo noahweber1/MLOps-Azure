@@ -1,7 +1,7 @@
 # MLOps-Azure
 
 
-This is a repository for the modified [YouTube Walkthrough of MLOPs on Azure](https://www.youtube.com/watch?v=TItOatTfAOc)
+This is a repository for the modified [YouTube Walkthrough of MLOPs on Azure](https://www.youtube.com/watch?v=JkI7o737ZEc)
 
 
 Deploy Flask Machine Learning Application on Azure App Services
@@ -176,8 +176,6 @@ stages:
               package: $(Pipeline.Workspace)/drop/$(Build.BuildId).zip
   ```
 10.  Verify Continuous Delivery of Azure Pipelines by changing `app.py`
-
-You can watch this [YouTube Walkthrough of this process](https://www.youtube.com/watch?v=3KF9DltYvZU)
 
 11.  Add a lint step (this gates your code against syntax failure)
 
